@@ -63,9 +63,7 @@ body {font-size:16px;}
     </div>
 
     <div class="w3-half">
-      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
-      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
-      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+      <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="marlontrujilloariza"><a class="LI-simple-link" href='https://www.linkedin.com/in/marlontrujilloariza?trk=profile-badge'>Marlon Trujillo Ariza</a></div>
     </div>
   </div>
 
@@ -199,7 +197,9 @@ body {font-size:16px;}
         <input class="w3-input w3-border" type="text" name="Message" required>
       </div>
       <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
-    </form>  
+    </form>
+    <!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/mtrujilloariza" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Follow @mtrujilloariza on GitHub">Follow @mtrujilloariza</a>  
   </div>
 
 <!-- End page content -->
@@ -228,6 +228,7 @@ function onClick(element) {
   captionText.innerHTML = element.alt;
 }
 </script>
-
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
