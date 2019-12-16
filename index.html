@@ -14,12 +14,23 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
-nav.w3-sidebar,header.w3-top, a.top-button{
+nav.w3-sidebar,header.w3-top, a.top-button, button.w3-button{
   background-color: rgb(22, 30, 56);
 }
 
 h1 {
   color: rgb(22, 30, 56)
+}
+
+.container {
+    width: auto;
+    height: 500px;
+}
+
+/* resize images */
+.container img {
+    width: auto;
+    height: 100%;
 }
 
 </style>
@@ -59,8 +70,8 @@ h1 {
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="education">
     <div class="w3-row-padding">
-    <div>
-      <img src="IMG_3782.jpg" style="width:25%">
+    <div class="container">
+      <img src="IMG_3782.jpg" >
     </div>
   </div>
 
@@ -210,7 +221,7 @@ h1 {
         <label>Message</label>
         <input class="w3-input w3-border" type="text" name="Message" required>
       </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+      <button type="submit" class="w3-button w3-block  w3-padding-large  w3-margin-bottom">Send Message</button>
     </form>
   </div>
 
