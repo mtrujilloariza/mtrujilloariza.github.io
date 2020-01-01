@@ -7,92 +7,112 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
-body {font-size:16px;}
-img.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-nav.w3-sidebar,header.w3-top, a.top-button, button.w3-button{
-  background-color: rgb(22, 30, 56);
-}
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Poppins", sans-serif
+  }
 
-h1 {
-  color: rgb(22, 30, 56)
-}
+  body {
+    font-size: 16px;
+  }
 
-.container {
+  img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav.w3-sidebar,
+  header.w3-top,
+  a.top-button,
+  button.w3-button {
+    background-color: rgb(22, 30, 56);
+  }
+
+  h1 {
+    color: rgb(22, 30, 56)
+  }
+
+  .container {
     width: auto;
     height: 500px;
-}
+  }
 
-/* resize images */
-.container img {
+  /* resize images */
+  .container img {
     width: auto;
     height: 100%;
-}
-
+  }
 </style>
+
 <body class="w3-black">
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar #00008B w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
-  <div class="w3-container">
-    <h3 class="w3-padding-64 w3-xxxlarge"><b>Marlon<br>Trujillo Ariza</b></h3>
-  </div>
-  <div class="w3-bar-block">
-    <a href="https://github.com/mtrujilloariza" class="w3-button"><i class="fa fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/marlontrujilloariza/" class="w3-button"><i class="fa fa-linkedin"></i></a>
-    <a href="#about_me" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
-    <a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Skills</a> 
-    <a href="#experiences" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Experiences</a> 
-    <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Projects</a> 
-    <a href="#orgs" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Organizations</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
-  </div>
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar #00008B w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;"
+    id="mySidebar"><br>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
+      style="width:100%;font-size:22px">Close Menu</a>
+    <div class="w3-container">
+      <h3 class="w3-padding-64 w3-xxxlarge"><b>Marlon<br>Trujillo Ariza</b></h3>
+    </div>
+    <div class="w3-bar-block">
+      <a href="https://github.com/mtrujilloariza" class="w3-button"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/marlontrujilloariza/" class="w3-button"><i class="fa fa-linkedin"></i></a>
+      <a href="#about_me" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+      <a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Skills</a>
+      <a href="#experiences" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Experiences</a>
+      <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Projects</a>
+      <a href="#orgs" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Organizations</a>
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    </div>
 
-</nav>
+  </nav>
 
-<!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large #00008B w3-xlarge w3-padding">
-  <a href="javascript:void(0)" class="top-button w3-button w3-margin-right" onclick="w3_open()">☰</a>
-  <span class="w3-xxlarge">Marlon Trujillo</span>
-</header>
+  <!-- Top menu on small screens -->
+  <header class="w3-container w3-top w3-hide-large #00008B w3-xlarge w3-padding">
+    <a href="javascript:void(0)" class="top-button w3-button w3-margin-right" onclick="w3_open()">☰</a>
+    <span class="w3-xxlarge">Marlon Trujillo</span>
+  </header>
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+    id="myOverlay"></div>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:340px;margin-right:40px">
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
-  <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="about_me">
+    <!-- Header -->
+    <div class="w3-container" style="margin-top:80px" id="about_me">
+      <div class="w3-row-padding">
+        <div class="container w3-center">
+          <img src="IMG_3782.jpg">
+        </div>
+      </div>
+
+      <h1 class="w3-xxlarge w3-text-white w3-center"><b>Computer Engineer</b></h1>
+      <h1 id="about_me" class="w3-xxxlarge"><b>About Me.</b></h1>
+      <hr style="width:50px;border:5px solid rgb(22, 30, 56)" class="w3-round">
+    </div>
+
+    <!-- About Me section -->
     <div class="w3-row-padding">
-    <div class="container w3-center">
-      <img src="IMG_3782.jpg" >
-    </div>
-  </div>
+      <div class="w3-half">
+        <p> I am currently a first-year computer engineering major at the University of California San Diego. My
+          engineering background spans back to middle school. Moving forward I have a great passion for pursuing a
+          career in video game development, app development, and web development. </p>
+      </div>
 
-    <h1 class="w3-xxlarge w3-text-white w3-center"><b>Computer Engineer</b></h1>
-    <h1 id="about_me" class="w3-xxxlarge"><b>About Me.</b></h1>
-    <hr style="width:50px;border:5px solid rgb(22, 30, 56)" class="w3-round">
-  </div>
-  
-  <!-- About Me section -->
-  <div class="w3-row-padding">
-    <div class="w3-half">
-        <p> I am currently a first-year computer engineering major at the University of California San Diego. My engineering background spans back to middle school. Moving forward I have a great passion for pursuing a career in video game development, app development, and web development. </p>
-    </div>
-
-    <div class="w3-half" >
+      <div class="w3-half">
         <img src="UCSD-logo.png" class="center" style="width:45%">
+      </div>
     </div>
-  </div>
 
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
       <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
       <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
         <img id="img01" class="w3-image">
@@ -100,158 +120,165 @@ h1 {
       </div>
     </div>
 
-  <!-- Skills -->
-  <div class="w3-container" id="skills" style="margin-top:75px">
+    <!-- Skills -->
+    <div class="w3-container" id="skills" style="margin-top:75px">
       <div class="w3-row-padding">
-          <h1 class="w3-xxxlarge"><b>Skills.</b></h1>
-          <hr style="width:50px;border:5px solid rgb(22, 30, 56)" class="w3-round">
-          <div class="w3-third w3-center">
-            <h2 class="w3-large"><b>Programming Languages.</b></h2>
-            <hr style="border:2px solid rgb(255, 255, 255)">
-            <p>Java</p>
-            <p>C++</p>
-            <p>HTML/CSS</p>
-            <p>C</p>
-            <p>MATLAB</p>
-          </div>
-          <div class="w3-third w3-center">
-            <h2 class="w3-large"><b>Familiar Programs.</b></h2>
-            <hr style="border:2px solid rgb(255, 255, 255)">
-            <p>SolidWorks</p>
-            <p>Autodesk Inventor</p>
-            <p>EagleCAD</p>
-            <p>NI Multisim</p>
-            <p>Unity</p>
-            <p>Adobe Suite</p>
-          </div>
-          <div class="w3-third w3-center">
-            <h2 class="w3-large"><b>Activites.</b></h2>
-            <hr style="border:2px solid rgb(255, 255, 255)">
-            <p>Video Game Programming</p>
-            <p>Web Development</p>
-            <p>Breadboarding</p>
-            <p>Arduino</p>
-            <p>3D Printing</p>
-            <p>Laser Cutting</p>
-            </div>
+        <h1 class="w3-xxxlarge"><b>Skills.</b></h1>
+        <hr style="width:50px;border:5px solid rgb(22, 30, 56)" class="w3-round">
+        <div class="w3-third w3-center">
+          <h2 class="w3-large"><b>Programming Languages.</b></h2>
+          <hr style="border:2px solid rgb(255, 255, 255)">
+          <p>Java</p>
+          <p>C++</p>
+          <p>HTML/CSS</p>
+          <p>C</p>
+          <p>MATLAB</p>
         </div>
-    </div>
-
-  <!-- Experiences -->
-  <div class="w3-container" id="experiences" style="margin-top:75px">
-    <h1 class="w3-xxxlarge"><b>Experiences.</b></h1>
-    <hr style="width:50px;border:5px solid rgb(22, 30, 56)" class="w3-round">
-    <h2 class="w3-medium"><b class="w3-xxlarge">IT Intern. </b>@ Palmdale Aerospace Academy</h2>
-    <hr style="border:1px solid rgb(255, 255, 255)">
-    <p>
-      <ul>
-        <li>Preformed repairs/replacements on devices</li>
-        <li>Maintained server rooms</li>
-        <li>Configured laptops for cloning</li>
-        <li>Diagnosed and repaired laptops</li>
-        <li>Performed tech support for teachers and staff</li>
-        <li>Configured the wiring for desk setups and projector presentations</li>
-        <li>Implemented video and audio passthroughs in walls and ceilings</li>
-      </ul>
-    </p>
-  </div>
-  
-  <!-- Projects title -->
-  <div class="w3-container" id="projects" style="margin-top:75px">
-    <h1 class="w3-xxxlarge"><b>Projects.</b></h1>
-    <hr style="width:50px;border:5px solid rgb(22, 30, 56)" class="w3-round">
-  </div>
-
-  <!-- Projects -->
-  <div class="w3-row-padding">
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="eng10fgif.gif" alt="John" style="width:100%">
-        <div class="w3-container">
-          <h3>Disability Controller</h3>
-          <p class="w3-opacity">SUMMER 2019</p>
-          <p>During my time in ENG 10 at UCSD, a team and I created a prototype video game controller for the disabled.
-            It uses an arudio to read the color on each finger from a modified glove, and translates it into keyboard pressess.
-          </p>
+        <div class="w3-third w3-center">
+          <h2 class="w3-large"><b>Familiar Programs.</b></h2>
+          <hr style="border:2px solid rgb(255, 255, 255)">
+          <p>SolidWorks</p>
+          <p>Autodesk Inventor</p>
+          <p>EagleCAD</p>
+          <p>NI Multisim</p>
+          <p>Unity</p>
+          <p>Adobe Suite</p>
+        </div>
+        <div class="w3-third w3-center">
+          <h2 class="w3-large"><b>Activites.</b></h2>
+          <hr style="border:2px solid rgb(255, 255, 255)">
+          <p>Video Game Programming</p>
+          <p>Web Development</p>
+          <p>Breadboarding</p>
+          <p>Arduino</p>
+          <p>3D Printing</p>
+          <p>Laser Cutting</p>
         </div>
       </div>
     </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="ece5f.gif" alt="Jane" style="width:100%">
-        <div class="w3-container">
-          <h3>Line Following Robot</h3>
-          <p class="w3-opacity">SUMMER 2019</p>
-          <p>Built and programmed a line following robot, using photoresistors and an arduino to controll it,
-             using PID to control the turn speeds. 
-          </p>
+
+    <!-- Experiences -->
+    <div class="w3-container" id="experiences" style="margin-top:75px">
+      <h1 class="w3-xxxlarge"><b>Experiences.</b></h1>
+      <hr style="width:50px;border:5px solid rgb(22, 30, 56)" class="w3-round">
+      <h2 class="w3-medium"><b class="w3-xxlarge">IT Intern. </b>@ Palmdale Aerospace Academy</h2>
+      <hr style="border:1px solid rgb(255, 255, 255)">
+      <p>
+        <ul>
+          <li>Preformed repairs/replacements on devices</li>
+          <li>Maintained server rooms</li>
+          <li>Configured laptops for cloning</li>
+          <li>Diagnosed and repaired laptops</li>
+          <li>Performed tech support for teachers and staff</li>
+          <li>Configured the wiring for desk setups and projector presentations</li>
+          <li>Implemented video and audio passthroughs in walls and ceilings</li>
+        </ul>
+      </p>
+    </div>
+
+    <!-- Projects title -->
+    <div class="w3-container" id="projects" style="margin-top:75px">
+      <h1 class="w3-xxxlarge"><b>Projects.</b></h1>
+      <hr style="width:50px;border:5px solid rgb(22, 30, 56)" class="w3-round">
+    </div>
+
+    <!-- Projects -->
+    <div class="w3-row-padding">
+      <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+          <img src="eng10fgif.gif" alt="John" style="width:100%">
+          <div class="w3-container">
+            <h3>Disability Controller</h3>
+            <p class="w3-opacity">SUMMER 2019</p>
+            <p>During my time in ENG 10 at UCSD, a team and I created a prototype video game controller for the
+              disabled.
+              It uses an arudio to read the color on each finger from a modified glove, and translates it into keyboard
+              pressess.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+          <img src="ece5f.gif" alt="Jane" style="width:100%">
+          <div class="w3-container">
+            <h3>Line Following Robot</h3>
+            <p class="w3-opacity">SUMMER 2019</p>
+            <p>Built and programmed a line following robot, using photoresistors and an arduino to controll it,
+              using PID to control the turn speeds.
+            </p>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- Orgs -->
+    <div class="w3-container" id="orgs" style="margin-top:75px">
+      <h1 class="w3-xxxlarge"><b>Organizations.</b></h1>
+      <hr style="width:50px;border:5px solid rgb(22, 30, 56)" class="w3-round">
+    </div>
+
+    <div class="w3-row-padding">
+      <h2 class="w3-medium"><b class="w3-xlarge">Academic Community for Engineering Success (ACES) </b>@ UCSD</h2>
+      <hr style="border:1px solid rgb(255, 255, 255)">
+      <p>
+        <ul>
+          <li>"The UC San Diego Academic Community for Engineering Success (ACES) Program is a two year program that
+            engages and supports highly motivated engineering students from economically and educationally underserved
+            backgrounds. ACES focuses on enhancing student success in their chosen engineering major through admission
+            to the Summer Engineering Institute, faculty mentorship, a collaborative peer support community, and
+            additional academic enrichment."</li>
+          <li>I have been an ACES scholar since the summer of 2019</li>
+        </ul>
+      </p>
+    </div>
+
+    <div class="w3-row-padding">
+      <h2 class="w3-medium"><b class="w3-xlarge">Video Game Development Club (VGDC) </b>@ UCSD</h2>
+      <hr style="border:1px solid rgb(255, 255, 255)">
+      <p>
+        <ul>
+          <li>"Our aim is to be a support group and all-around friendly community for game development at UCSD."</li>
+          <li>I have been a member since the fall of 2019, and have taken part in video game development projects.</li>
+        </ul>
+      </p>
+    </div>
+
+    <!-- Contact -->
+    <div class="w3-container" id="contact" style="margin-top:75px">
+      <h1 class="w3-xxxlarge"><b>Contact.</b></h1>
+      <hr style="width:50px;border:5px solid rgb(22, 30, 56)" class="w3-round">
+      <h2 style="font-size:4vw;">marlon.trujillo2001@gmail.com</h2>
+      <a href="https://github.com/mtrujilloariza" class="w3-button"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/marlontrujilloariza/" class="w3-button"><i class="fa fa-linkedin"></i></a>
+    </div>
+
+    <!-- End page content -->
   </div>
 
-  <!-- Orgs -->
-  <div class="w3-container" id="orgs" style="margin-top:75px">
-    <h1 class="w3-xxxlarge"><b>Organizations.</b></h1>
-    <hr style="width:50px;border:5px solid rgb(22, 30, 56)" class="w3-round">
-  </div>
+  <!-- W3.CSS Container -->
+  <div class="w3-black w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"></div>
 
-  <div class="w3-row-padding">
-    <h2 class="w3-medium"><b class="w3-xlarge">Academic Community for Engineering Success (ACES) </b>@ UCSD</h2>
-    <hr style="border:1px solid rgb(255, 255, 255)">
-    <p>
-      <ul>
-        <li>"The UC San Diego Academic Community for Engineering Success (ACES) Program is a two year program that engages and supports highly motivated engineering students from economically and educationally underserved backgrounds. ACES focuses on enhancing student success in their chosen engineering major through admission to the Summer Engineering Institute, faculty mentorship, a collaborative peer support community, and additional academic enrichment."</li>
-        <li>I have been an ACES scholar since the summer of 2019</li>
-      </ul>
-    </p>
-  </div>
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("myOverlay").style.display = "block";
+    }
 
-  <div class="w3-row-padding">
-    <h2 class="w3-medium"><b class="w3-xlarge">Video Game Development Club (VGDC) </b>@ UCSD</h2>
-    <hr style="border:1px solid rgb(255, 255, 255)">
-    <p>
-      <ul>
-        <li>"Our aim is to be a support group and all-around friendly community for game development at UCSD."</li>
-        <li>I have been a member since the fall of 2019, and have taken part in video game development projects.</li>
-      </ul>
-    </p>
-  </div>
-  
-  <!-- Contact -->
-  <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge"><b>Contact.</b></h1>
-    <hr style="width:50px;border:5px solid rgb(22, 30, 56)" class="w3-round">
-    <h2 class="w3-xxxlarge">marlon.trujillo2001@gmail.com</h2>
-    <a href="https://github.com/mtrujilloariza" class="w3-button"><i class="fa fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/marlontrujilloariza/" class="w3-button"><i class="fa fa-linkedin"></i></a>
-  </div>
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("myOverlay").style.display = "none";
+    }
 
-<!-- End page content -->
-</div>
-
-<!-- W3.CSS Container -->
-<div class="w3-black w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"></div>
-
-<script>
-// Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-</script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+  </script>
 </body>
+
 </html>
