@@ -183,7 +183,33 @@ a {
     }
 }
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: black;
+    }
 
+    .card {
+        background: black;
+        color: darkgray;
+        filter: drop-shadow(0 0 1rem rgba(83, 83, 83, 0.5));
+        
+    }
+    
+    .card h1 {
+        font-weight: normal;
+        color: darkgray;
+    }
+
+    .icon {
+        filter: invert(50%);
+    }
+
+    .link {
+        filter: invert(50%);
+    }
+
+}
 
 
 
