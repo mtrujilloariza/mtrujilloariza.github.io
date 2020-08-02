@@ -80,6 +80,10 @@ a {
     width: 100%;
 }
 
+#info .profile-picture:hover {
+    opacity: 50%;
+}
+
 #info .profile-picture img {
     width: 55%;
     text-align: center;
@@ -100,12 +104,20 @@ a {
     width: 2rem;
 }
 
+#info .icon img:hover {
+    opacity: 50%;
+}
+
 .link {
     margin: 1rem;
 }
 
 .link img {
     width: 2rem;
+}
+
+.link img:hover {
+    opacity: 50%;
 }
 
 .bold-list {
@@ -163,7 +175,7 @@ a {
         position: fixed;
         height: 100%;
         overflow-x: hidden;
-        
+        place-items: center;
     }
 
     .sidebar .card {

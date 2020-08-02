@@ -1,272 +1,283 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-        <title>Marlon Trujillo Ariza</title>
+<head>
 
-        <!-- Meta -->
-        <meta name="description" content="Marlon Trujillo Ariza Resume Portfolio">
-        <meta name="keywords" content="Resume, Computer Science, Computer Science Resume">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marlon Trujillo Ariza</title>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
+    <!-- Meta -->
+    <meta name="description" content="Marlon Trujillo Ariza Resume Portfolio">
+    <meta name="keywords" content="Resume, Computer Science, Computer Science Resume">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-        <link rel="manifest" href="favicon/site.webmanifest">
-        
-        <!--
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <!--
             Icons made by <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
             Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
         -->
 
-        
-    </head>
 
-    <body>
-        <div class="container">
-            <aside class="sidebar">
-                <section class="card" id="info">
+</head>
 
-                    <div class="profile-picture">
-                        <img src="pictures/profile-pic.jpg" alt="Marlon Trujillo Ariza">
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <section class="card" id="info">
+
+                <div class="profile-picture">
+                    <img src="pictures/profile-pic.jpg" alt="Marlon Trujillo Ariza" onclick="toggleIMG()">
+                </div>
+
+                <h1>Marlon Trujillo Ariza</h1>
+                <h5>Programmer</h5>
+
+                <div class="icons clearfix">
+                    <div class="icon">
+                        <a href="https://github.com/mtrujilloariza" target="_blank">
+                            <img src="icons/github.svg" alt="GitHub Link">
+                        </a>
                     </div>
-    
-                    <h1>Marlon Trujillo Ariza</h1>
-                    <h5>Programmer</h5>
-    
-                    <div class="icons clearfix">
-                        <div class="icon">
-                            <a href="https://github.com/mtrujilloariza" target="_blank">
-                                <img src="icons/github.svg" alt="GitHub Link">
-                            </a> 
-                        </div>
-                        
-                        <div class="icon">
-                            <a href="mailto:marlon.trujillo2001@gmail.com" target="_blank">
-                                <img src="icons/mail.svg" alt="Email Link">
-                            </a>
-                        </div>
-                        
-                        <div class="icon">
-                            <a href="https://www.linkedin.com/in/marlontrujilloariza/" target="_blank">
-                                <img src="icons/linkedin.svg" alt="Linkedin Link">
-                            </a>          
-                        </div>
+
+                    <div class="icon">
+                        <a href="mailto:marlon.trujillo2001@gmail.com" target="_blank">
+                            <img src="icons/mail.svg" alt="Email Link">
+                        </a>
                     </div>
-    
+
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/marlontrujilloariza/" target="_blank">
+                            <img src="icons/linkedin.svg" alt="Linkedin Link">
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+        </aside>
+
+        <div class="content">
+            <div>
+                <!-- About Me -->
+                <h1 id="About-Me">About Me <span class="emoji">&#x1F393</span> </h1>
+
+                <section class="card" id="Education">
+                    <h1>Education</h1>
+
+                    <div class="card-image">
+                        <img src="pictures/geisel.jpg">
+                    </div>
+
+                    <h2>B.S. Computer Science</h2>
+                    <h2>@ UC San Diego</h2>
+                    <h3>GPA: 3.8</h3>
+                    <h5>Expected Graduation: 2023</h5>
                 </section>
-            </aside>
 
-            <div class="content">
-                <div> <!-- About Me -->
-                    <h1 id="About-Me">About Me <span class="emoji">&#x1F393</span> </h1>
-    
-                    <section class="card" id="Education">
-                        <h1>Education</h1>
-        
-                        <div class="card-image">
-                            <img src="pictures/geisel.jpg">
-                        </div>
-        
-                        <h2>B.S. Computer Science</h2>
-                        <h2>@ UC San Diego</h2>
-                        <h3>GPA: 3.8</h3>
-                        <h5>Expected Graduation: 2023</h5>
-                    </section>
-        
-                    <section class="card" id="skills">
-        
-                        <h1>Skills</h1>
-        
-                        <ul class="bold-list">
-                            <li>Java</li>
-                            <li>C</li>
-                            <li>ARM Assembly</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Unity Game Engine</li>
-                        </ul>
-        
-                    </section>
-                </div>
-    
-                <div> <!-- Experiences -->
-    
-                    <h1 id="Experiences">Experiences <span class="emoji">&#x1F454</span> </h1>
-    
-                    <section class="card" id="SEI">
-    
-                        <h1>SEI Researcher</h1>
-                        <h5>@ UCSD</h5>
-                        <h5><time>August – September 2019</time></h5>
-    
-                        <ul class="regular-list">
-                            <li>Researched and developed a prototype video game controller for the handicapped</li>
-                            <li>Programmed Arduino to read small movements of a glove and translate them into small keyboard actions</li>
-                        </ul>
-    
-                        <div class="link">
-                            <a href="http://jacobsschool.ucsd.edu/idea/programs/freshman_summer_institute.shtml" target="_blank">
-                                <img src="icons/link.svg">  
-                            </a>
-                        </div>    
-    
-                    </section>
-    
-                    <section class="card" id="IT-Intern">
-    
-                        <h1>IT Intern</h1>
-                        <h5>@ Palmdale Aerospace Academy</h5>
-                        <h5><time>June 2018 - August 2019</time></h5>
-        
-                        <ul class="regular-list">
-                            <li>Diagnosed and repaired laptops</li>
-                            <li>Maintained server rooms</li>
-                            <li>Configured laptops for cloning</li>
-                            <li>Configured the wiring for desk setups and projector presentations</li>
-                            <li>Installed video and audio passthroughs in walls and ceilings</li>
-                        </ul>
-    
-                        <div class="link">
-                            <a href="https://www.tpaa.org/" target="_blank">
-                                <img src="icons/link.svg">  
-                            </a>
-                        </div>  
-    
-                    </section>
-    
-                    <section class="card" id="Robotics-Workshop">
-    
-                        <h1>Robotics Workshop Cordinator</h1>
-                        <h5>@ The Palmdale Aerospace Academy</h5>
-                        <h5><time>June - July 2018</time></h5>
-    
-                        <ul class="regular-list">
-                            <li>Collaborated in a small team to plan a children’s summer robotics workshop</li>
-                            <li>Helped obtain guest speakers from engineering corporations</li>
-                            <li>Mentored children about the engineering process/robotics</li>
-                        </ul>
-    
-                        <div class="link">
-                            <a href="http://www.gryffingear.com/magic-of-robots-2019-workshop" target="_blank">
-                                <img src="icons/link.svg">  
-                            </a>
-                        </div>
-                    </section>
-                </div>
-    
-                <div> <!-- Projects -->
-    
-                    <h1 id="Projects">Projects <span class="emoji">&#x1F4BB</span> </h1>
-    
-                    <section class="card" id="AlogX">
-                        <h1>Algo X</h1>
+                <section class="card" id="skills">
 
-                        <div class="card-image">
-                            <img src="pictures/AlgoX.gif">
-                        </div>
-    
-                        <p>Created in Unity, Algo X was created to help new programmers visualize sorting 
-                            algorithms in a smaller set. The use has the control to choose what instruction to do next, 
-                            with alerts when a wrong instruction is executed for the algorithm. It provides a much more tactile 
-                            experience then just a simple visualizer to better understand the underlying code. 
-                        </p>
-    
-    
-                        <div class="link">
-                            <a href="https://mtrujilloariza.github.io/AlgoX/index.html" target="_blank">
-                                <img src="icons/link.svg">  
-                            </a>
-                        </div>
-    
-                    </section>
-    
-                    <section class="card" id="VG-Controller">
-    
-                        <h1>Acessibility Video Game Controller</h1>
-    
-                        <div class="card-image">
-                            <img src="pictures/eng10fgif.gif">
-                        </div>
-    
-                        <p> Created during SEI, my team's project was to develop a
-                            prototype glove that can act as a video game controller for
-                            anyone with a disability. The controller only requires slight movement
-                            in that hand, each finger is assigned a color which corresponds to a keypress.
-                            A color sensor reads located in an Arduino reads a finger and emulates
-                            the corresponding keypress on a computer. 
-                        </p>
-    
-                    </section>
-    
-                    <section class="card" id="Line-Following-Robot">
-    
-                        <h1>Line Following Robot</h1>
-    
-                        <div class="card-image">
-                            <img src="pictures/ece5f.gif">
-                        </div>                    
-    
-                        <p> Built and programmed a line following robot, 
-                            using photoresistors and an arduino to control it,
-                            using PID to control the turn speeds.
-                        </p>
-                    </section>
-                </div>
-    
-                <div> <!-- Organizations -->
-    
-                    <h1 id="Organizations">Organizations <span class="emoji">&#x1F4BC</span> </h1>
-    
-                    <section class="card" id="ACES">
-    
-                        <div class="card-image">
-                            <img src="pictures/aces.jpg">
-                        </div>
-    
-                        <div class="link">
-                            <a href="http://jacobsschool.ucsd.edu/idea/programs/aces.shtml" target="_blank">
-                                <img src="icons/link.svg">  
-                            </a>
-                        </div>
-    
-                    </section>
-    
-                    <section class="card" id="VGDC">
-    
-                        <div class="card-image">
-                            <img src="pictures/vgdc.jpg">
-                        </div>
-    
-                        <div class="link">
-                            <a href="https://www.facebook.com/groups/VGDC.UCSD/" target="_blank">
-                                <img src="icons/link.svg">  
-                            </a>
-                        </div>
-    
-                    </section>
-    
-                    <section class="card" id="SHPE">
-    
-                        <div class="card-image">
-                            <img src="pictures/shpe.png">
-                        </div>
-    
-                        <div class="link">
-                            <a href="https://sites.google.com/view/shpeucsd/home" target="_blank">
-                                <img src="icons/link.svg">  
-                            </a>
-                        </div>
-    
-                    </section>
-    
-                </div>
+                    <h1>Skills</h1>
+
+                    <ul class="bold-list">
+                        <li>Java</li>
+                        <li>C</li>
+                        <li>ARM Assembly</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Unity Game Engine</li>
+                    </ul>
+
+                </section>
+            </div>
+
+            <div>
+                <!-- Experiences -->
+
+                <h1 id="Experiences">Experiences <span class="emoji">&#x1F454</span> </h1>
+
+                <section class="card" id="SEI">
+
+                    <h1>SEI Researcher</h1>
+                    <h5>@ UCSD</h5>
+                    <h5><time>August – September 2019</time></h5>
+
+                    <ul class="regular-list">
+                        <li>Researched and developed a prototype video game controller for the handicapped</li>
+                        <li>Programmed Arduino to read small movements of a glove and translate them into small keyboard
+                            actions</li>
+                    </ul>
+
+                    <div class="link">
+                        <a href="http://jacobsschool.ucsd.edu/idea/programs/freshman_summer_institute.shtml"
+                            target="_blank">
+                            <img src="icons/link.svg">
+                        </a>
+                    </div>
+
+                </section>
+
+                <section class="card" id="IT-Intern">
+
+                    <h1>IT Intern</h1>
+                    <h5>@ Palmdale Aerospace Academy</h5>
+                    <h5><time>June 2018 - August 2019</time></h5>
+
+                    <ul class="regular-list">
+                        <li>Diagnosed and repaired laptops</li>
+                        <li>Maintained server rooms</li>
+                        <li>Configured laptops for cloning</li>
+                        <li>Configured the wiring for desk setups and projector presentations</li>
+                        <li>Installed video and audio passthroughs in walls and ceilings</li>
+                    </ul>
+
+                    <div class="link">
+                        <a href="https://www.tpaa.org/" target="_blank">
+                            <img src="icons/link.svg">
+                        </a>
+                    </div>
+
+                </section>
+
+                <section class="card" id="Robotics-Workshop">
+
+                    <h1>Robotics Workshop Cordinator</h1>
+                    <h5>@ The Palmdale Aerospace Academy</h5>
+                    <h5><time>June - July 2018</time></h5>
+
+                    <ul class="regular-list">
+                        <li>Collaborated in a small team to plan a children’s summer robotics workshop</li>
+                        <li>Helped obtain guest speakers from engineering corporations</li>
+                        <li>Mentored children about the engineering process/robotics</li>
+                    </ul>
+
+                    <div class="link">
+                        <a href="http://www.gryffingear.com/magic-of-robots-2019-workshop" target="_blank">
+                            <img src="icons/link.svg">
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+            <div>
+                <!-- Projects -->
+
+                <h1 id="Projects">Projects <span class="emoji">&#x1F4BB</span> </h1>
+
+                <section class="card" id="AlogX">
+                    <h1>Algo X</h1>
+
+                    <div class="card-image">
+                        <img src="pictures/AlgoX.gif">
+                    </div>
+
+                    <p>Created in Unity, Algo X was created to help new programmers visualize sorting
+                        algorithms in a smaller set. The use has the control to choose what instruction to do next,
+                        with alerts when a wrong instruction is executed for the algorithm. It provides a much more
+                        tactile
+                        experience then just a simple visualizer to better understand the underlying code.
+                    </p>
+
+
+                    <div class="link">
+                        <a href="https://mtrujilloariza.github.io/AlgoX/index.html" target="_blank">
+                            <img src="icons/link.svg">
+                        </a>
+                    </div>
+
+                </section>
+
+                <section class="card" id="VG-Controller">
+
+                    <h1>Acessibility Video Game Controller</h1>
+
+                    <div class="card-image">
+                        <img src="pictures/eng10fgif.gif">
+                    </div>
+
+                    <p> Created during SEI, my team's project was to develop a
+                        prototype glove that can act as a video game controller for
+                        anyone with a disability. The controller only requires slight movement
+                        in that hand, each finger is assigned a color which corresponds to a keypress.
+                        A color sensor reads located in an Arduino reads a finger and emulates
+                        the corresponding keypress on a computer.
+                    </p>
+
+                </section>
+
+                <section class="card" id="Line-Following-Robot">
+
+                    <h1>Line Following Robot</h1>
+
+                    <div class="card-image">
+                        <img src="pictures/ece5f.gif">
+                    </div>
+
+                    <p> Built and programmed a line following robot,
+                        using photoresistors and an arduino to control it,
+                        using PID to control the turn speeds.
+                    </p>
+                </section>
+            </div>
+
+            <div>
+                <!-- Organizations -->
+
+                <h1 id="Organizations">Organizations <span class="emoji">&#x1F4BC</span> </h1>
+
+                <section class="card" id="ACES">
+
+                    <div class="card-image">
+                        <img src="pictures/aces.jpg">
+                    </div>
+
+                    <div class="link">
+                        <a href="http://jacobsschool.ucsd.edu/idea/programs/aces.shtml" target="_blank">
+                            <img src="icons/link.svg">
+                        </a>
+                    </div>
+
+                </section>
+
+                <section class="card" id="VGDC">
+
+                    <div class="card-image">
+                        <img src="pictures/vgdc.jpg">
+                    </div>
+
+                    <div class="link">
+                        <a href="https://www.facebook.com/groups/VGDC.UCSD/" target="_blank">
+                            <img src="icons/link.svg">
+                        </a>
+                    </div>
+
+                </section>
+
+                <section class="card" id="SHPE">
+
+                    <div class="card-image">
+                        <img src="pictures/shpe.png">
+                    </div>
+
+                    <div class="link">
+                        <a href="https://sites.google.com/view/shpeucsd/home" target="_blank">
+                            <img src="icons/link.svg">
+                        </a>
+                    </div>
+
+                </section>
+
             </div>
         </div>
-    </body>
+    </div>
+
+    <script type="text/javascript" src="/js/main.js"></script>
+
+</body>
 
 </html>
