@@ -80,10 +80,6 @@ a {
     width: 100%;
 }
 
-#info .profile-picture:hover {
-    opacity: 50%;
-}
-
 #info .profile-picture img {
     width: 55%;
     text-align: center;
@@ -102,10 +98,6 @@ a {
 
 #info .icon img {
     width: 2rem;
-}
-
-#info .icon img:hover {
-    opacity: 50%;
 }
 
 .link {
@@ -221,6 +213,17 @@ a {
         filter: invert(50%);
     }
 
+}
+
+/* onhover events for desktop only */
+@media(hover: hover) and (pointer: fine) {
+    #info .profile-picture:hover {
+        opacity: 50%;
+    }
+
+    #info .icon img:hover {
+        opacity: 50%;
+    }
 }
 
 
