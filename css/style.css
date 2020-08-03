@@ -195,22 +195,28 @@ a {
 
     .card {
         background: black;
-        color: darkgray;
-        filter: drop-shadow(0 0 1rem rgba(83, 83, 83, 0.5));
-        
+        color: white;
+        filter: drop-shadow(0 0 1rem rgba(124, 124, 124, 0.212));
     }
     
     .card h1 {
         font-weight: normal;
-        color: darkgray;
+        color: white;
     }
 
+    .card h2, .card h3 {
+        color: lightgray;
+    }
+    .card h5{
+        color: darkgray;
+    }  
+
     .icon {
-        filter: invert(50%);
+        filter: invert(100%);
     }
 
     .link {
-        filter: invert(50%);
+        filter: invert(100%);
     }
 
 }
