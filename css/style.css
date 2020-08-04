@@ -194,9 +194,9 @@ a {
     }
 
     .card {
-        background: black;
+        background: rgba(54, 54, 54, 0.212);
         color: white;
-        filter: drop-shadow(0 0 1rem rgba(124, 124, 124, 0.212));
+        filter: drop-shadow(0 0 0rem rgba(124, 124, 124, 0.212));
     }
     
     .card h1 {
