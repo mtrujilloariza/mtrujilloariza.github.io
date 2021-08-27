@@ -10,3 +10,9 @@ function toggleIMG() {
 }
 
 profilePicture.setAttribute('onclick', 'toggleIMG()');
+
+$('.js-tilt').tilt({
+  maxTilt: 5,
+  scale: 1.05,
+  speed: 5000, 
+})
