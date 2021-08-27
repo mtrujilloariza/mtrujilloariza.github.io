@@ -16,3 +16,5 @@ $('.js-tilt').tilt({
   scale: 1.05,
   speed: 5000, 
 })
+
+AOS.init();
