@@ -16,3 +16,7 @@ $('.js-tilt').tilt({
   scale: 1.05,
   speed: 5000, 
 })
+
+$('.content .card').attr('data-aos', "fade-left");
+
+

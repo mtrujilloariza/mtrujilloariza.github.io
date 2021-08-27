@@ -168,6 +168,8 @@ a {
   color: #1b9d48;
 }
 
+
+
 @media only screen and (min-width: 1024px) {
   .container {
     width: 850px;
@@ -228,6 +230,10 @@ a {
 
   .link {
     filter: invert(100%);
+  }
+
+  #Contact {
+    color: lightgray;
   }
 }
 
